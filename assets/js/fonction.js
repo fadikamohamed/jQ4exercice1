@@ -28,7 +28,7 @@ $(function() {
       alert('Machine a choisi ' + machineChoiceList[machineChoice]);
       alert('Machine a gagné !');
       //Sinon si le choix de l'user est supérieur au choix de la machine...
-    } else if (userChoice > machineChoice)
+    } else if (userChoice > machineChoice) {
       //Incrémenter victory
       victory++;
       alert('Machine a choisi ' + machineChoiceList[machineChoice]);
