@@ -6,17 +6,12 @@
     <title>Exercice 1</title>
   </head>
   <body>
-    <div id="computer"></div>
-    <div id="ring">
-    </div>
-    <div id="player"></div>
-    <form>
-      <label for="pierre">Pierre</label><input type="radio" name="shifumi" value="pierre" id="pierre" />
-      <label for="papier">Papier</label><input type="radio" name="shifumi" value="papier" id="papier" />
-      <label for="ciseaux">Ciseaux</label><input type="radio" name="shifumi" value="ciseaux" id="ciseaux" />
-      <button type="button" id="valider">Shifumi !</button>
-      <div id="text"></div>
-    </form>
+    <select id="userChoice">
+      <option value="0">Pierre</option>
+      <option value="1">Papier</option>
+      <option value="2">Ciseaux</option>
+    </select>
+    <button type="button" id="shifumi">Shifumi !</button>
     <script src="assets/js/jquery-3.2.1.js"></script>
     <script src="assets/js/fonction.js"></script>
   </body>
